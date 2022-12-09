@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cartevisite</title>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+    <link rel="stylesheet" href="Styl.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    
+<div class="big_container">
+    <div id="print_pdf">
+<div class="container">
+    
+
+    <img class="Banner_card" src="data_virgo/tst_card.jpg" alt="">
+<div class="busniss_cardd">    
+    <p id="firstN">jhon <b id="LastN"> doe</b></p> 
+    <p id="PhoneN">+216 55 91 11 19 / +216 55 99 11 55 </p>
+    <p id="Email">your-mail@mail.com</p>
+    <p id="Website">www.YourWebSite.com</p>
+    <p id="adresse">your address goes here <br>
+    street, zip code 2045</p>
+    <p id="Proffession">Proffession</p>
+    <p id="compagny">compagny</p>
+</div>
+<div id="img">
+    <img id="logo_box" src="data_virgo/Sans titre-4.png" alt="">
+</div> 
+</div>
+<div class="container2">
+    <img src="data_virgo/back carte visite.jpg" alt="">
+    <img id="banner_card2" src="data_virgo/Sans titre-4.png" alt="">
+    <p id="compagny2">compagny</p>
+</div>
+<button type="submit" id="button_card2" > Print </button>
+</div>
+
+
+<div class="checker" id="check">
+
+    <h2 class="upper_text">Create your Business Card</h2>
+<form class="input_form">
+    <input id="input1" class="input" type="text" placeholder="LastName"><br>
+    <input id="input2" class="input" type="text" placeholder="FirstName"><br>
+    <input id="input3" class="input" type="text" placeholder="Compagny"><br>
+    <input id="input4"class="input" type="text" placeholder="Proffession"><br>
+    <input id="input5" class="input" type="text" placeholder="Address"><br>
+    <input id="input6" class="input" type="number" placeholder="PhoneNumber"><br>
+    <input id="input7" class="input" type="text" placeholder="E-mail"><br>
+    <input id="input8" class="input" type="text" placeholder="Website"><br>
+    <input class="Upload_Logo" type="file" id="Upload_Logo_picture"  accept="image/*" hidden >
+    <label for="Upload_Logo_picture">Upload your Logo</label>
+</form>
+<button type="submit" id="button_card"> Submit </button>
+   <script src="myJS.js"></script>
+  
+</div> 
+</div> 
+</body>
+</html>

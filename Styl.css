@@ -1,0 +1,283 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.checker {
+        background-color: rgb(238, 241, 255);
+        width: 1125px;
+        align-items: center;
+        height: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 20px;
+        border-radius: 15px;
+        padding-top: 10px;
+        
+        
+
+
+}
+
+.input {
+    
+        margin-bottom : 15px;
+        width:700px;
+        height: 50px;
+        border-radius: 15px;
+        font-weight: 150px;
+        font-size: 15px;
+        opacity: 95%;
+        text-align: center;
+        font-style: italic;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+}
+
+#button_card {
+    border: 5px;
+    background-color: rgb(148, 201, 145);
+   
+    border-radius: 15px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    height: 50px;
+    opacity: 98%;
+    padding-left: 0px;
+    padding-right: 0px;
+box-sizing: content-box;
+font-style: italic;
+margin-top: 5px;
+font-size: 50px;
+
+}
+
+.Upload_Logo{
+    border: 5px;
+    background-color: rgb(148, 201, 145);
+   
+    border-radius: 15px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    height: 25px;
+    opacity: 98%;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-sizing: content-box;
+    font-style: italic;
+    margin-top: 5px;
+    margin-top: 5px;
+}
+
+
+  .big_input {
+    margin-top: 30px;
+
+
+  }
+
+
+.container {
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+   
+}
+
+
+#firstN {
+top: 17%;
+left: 55%;
+text-align: left;
+position: absolute;
+font-size: 40px;
+text-transform: capitalize;
+font-weight: 20px;
+font-family: 'kanit','cursive';
+color: rgb(255, 255, 255);
+
+}
+
+
+#PhoneN{
+    top: 32%;
+    left: 57.5%;
+    text-align: left;
+    position: absolute;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 20px;
+    font-family: 'kanit','cursive';
+    color: rgb(255, 255, 255);
+    
+    }
+
+#Email{
+    top: 47%;
+    left: 59%;
+    text-align: left;
+    position: absolute;
+    font-size: 20px;
+    text-transform: lowercase;
+    font-weight: 20px;
+    font-family: 'kanit','cursive';
+    color: rgb(255, 255, 255);
+    
+    }
+    #Website{
+        top: 62%;
+        left: 57.5%;
+        text-align: left;
+        position: absolute;
+        font-size: 20px;
+        text-transform: lowercase;
+        font-weight: 20px;
+        font-family: 'kanit','cursive';
+        color: rgb(255, 255, 255);
+}
+
+#adresse {
+    top: 76%;
+        left: 53%;
+        text-align: left;
+        position: absolute;
+        font-size: 20px;
+        text-transform: lowercase;
+        font-weight: 20px;
+        font-family: 'kanit','cursive';
+        color: rgb(255, 255, 255);
+
+}
+
+#Proffession {
+    top: 23%;
+        left: 55%;
+        text-align: left;
+        position: absolute;
+        font-size: 20px;
+        text-transform: capitalize;
+        font-weight: lighter;
+        font-family: 'kanit','cursive';
+        color: rgb(255, 220743, 112);
+
+}
+
+#logo_box {
+    position: absolute;
+    top: 30%;
+    left: 14%;
+    block-size: 20%;
+}
+
+#compagny {
+    color: rgb(54, 54, 54);
+    top: 50%;
+    left: 11%;
+    text-align: left;
+    position: absolute;
+    font-size: 70px;
+    text-transform: capitalize;
+    font-weight: 20px;
+    font-family: 'kanit','cursive';
+}
+
+.container2 {
+    display: inline-block;
+    position: relative;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#banner_card2 {
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    block-size: 20%;
+}
+
+
+#compagny2 {
+    color: rgb(255, 207, 1);
+    top: 25%;
+    left: 35%;
+    text-align: left;
+    position: absolute;
+    font-size: 70px;
+    text-transform: capitalize;
+    font-weight: 20px;
+    font-family: 'kanit','cursive';
+}
+
+img {
+    border-radius: 15px;
+}
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.big_container {
+    height: 1000px;
+    display: flex;
+    flex-direction:column;
+    margin: 20px;
+    background-color: #f6f6eb;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+#print_pdf {
+    display: flex;
+    flex-direction:column;
+    margin: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+
+}
+
+#check {
+    display: block;
+}
+
+#button_card2{
+    border: 5px;
+    background-color: rgb(148, 201, 145);
+    display: none;
+   
+    border-radius: 15px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    height: 50px;
+    opacity: 98%;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-sizing: content-box;
+font-style: italic;
+margin-top: 5px;
+font-size: 50px;
+}
+
+#print_pdf {
+
+    
+}
